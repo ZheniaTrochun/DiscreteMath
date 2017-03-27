@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+    <title>Inc Sum Matrix</title>
+  </head>
+  <body>
+    <header>
+      <div class="box">
+        <h1>Створення матриць Інцидентності і Суміжності</h1>
+        <p id="rulesP">
+          Правила вводу:
+        </p>
+        <ol id="rulesOl">
+          <li>
+            Ввести дані про граф
+          </li>
+          <li>
+            Натиснути ОК
+          </li>
+          <li>
+            Ввести ребра в форматі n1-n2, де n1 - початкова вершина ребра, n2 - кінцева вершина ребра
+          </li>
+          <li>
+            Натиснути кнопку Порахувати
+          </li>
+          <li>
+            Насолоджуватись результатом
+          </li>
+        </ol>
+      </div>
+    </header>
+    <section>
+      <div class="box">
+        <div class="input" id="inputBox">
+          <div class="grafInfo" id="vertexEdgeInput">
+            <input type="text" name="name" value="" placeholder="Кількість вершин" id="vertexNum">
+            <input type="text" name="name" value="" placeholder="Кількість ребер" id="edgeNum">
+            <button type="button" name="button" onclick="getStartInfo()">OK</button>
+          </div>
+          <div class="edges" id="edgesInput">
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="Box">
+        <div class="incindentArr" id="incindentArr">
+
+        </div>
+        <div class="sumizhArr" id="sumizhArr">
+
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
