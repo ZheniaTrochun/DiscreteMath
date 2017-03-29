@@ -2,5 +2,10 @@
   "/SI": {
     "handler": "arrUtils",
     "action": "getSI"
+  },
+
+  "/grafInfo": {
+    "handler": "baseInfo",
+    "action": "getFullInfo"
   }
 }
