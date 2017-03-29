@@ -22,6 +22,7 @@ class BaseInfo{
 
   static getEccentricities(vertexNum, edgesNum, edgesArr) {
     const eccentricityArr = [];
+
     //TODO
   }
 
